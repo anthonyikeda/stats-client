@@ -4,7 +4,8 @@ version = "0.1.0"
 authors = ["Anthony Ikeda <anthony.ikeda@cognizant.com>"]
 edition = "2018"
 keywords = ["rust", "webclient", "package", "greet"]
-
+readme = "README.adoc"
+repository = "https://github.com/anthonyikeda/stats-client"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
