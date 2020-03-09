@@ -1,5 +1,5 @@
 [package]
-name = "stats-slient"
+name = "stats-client"
 version = "0.1.0"
 authors = ["Anthony Ikeda <anthony.ikeda@cognizant.com>"]
 edition = "2018"
