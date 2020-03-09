@@ -1,0 +1,11 @@
+= Stats Client
+Anthony Ikeda <anthony.ikeda@gmail.com>
+v1.0.0
+
+:listing-caption: Listing
+
+== Overview
+
+An example codebase to demo how to integrate a WebAssembly component
+into an Angular 9 application.
+
