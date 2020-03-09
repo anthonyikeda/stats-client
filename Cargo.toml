@@ -1,5 +1,5 @@
 [package]
-name = "stats-client"
+name = "stats-client-wasm"
 version = "0.1.0"
 authors = ["Anthony Ikeda <anthony.ikeda@cognizant.com>"]
 edition = "2018"
