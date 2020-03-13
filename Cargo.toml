@@ -1,6 +1,6 @@
 [package]
 name = "stats-client-wasm"
-version = "0.1.0"
+version = "0.1.3"
 authors = ["Anthony Ikeda <anthony.ikeda@cognizant.com>"]
 edition = "2018"
 keywords = ["rust", "webclient", "package", "greet"]
@@ -9,7 +9,7 @@ repository = "https://github.com/anthonyikeda/stats-client"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 wasm-bindgen = "0.2.59"
