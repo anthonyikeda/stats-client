@@ -9,3 +9,30 @@ v1.0.0
 An example codebase to demo how to integrate a WebAssembly component
 into an Angular 9 application.
 
+To compile to web:
+
+install wasm-bindgen-cli:
+
+.Install the wasm-bindgen-cli
+[source,bash]
+----
+$ cargo install wasm-bindgen-cli
+----
+
+.Build the application
+[source,bash]
+----
+$ cargo build --release --target was32-unknown-unknown
+----
+
+.Test it if you have tests involved
+[source,bash]
+----
+$ cargo test
+----
+
+.Run the wasm-bindgen-cli
+[source,bash]
+----
+$ wasm-bindgen target/wasm32-unknown-unknown/release/stats-client-wasm.wasm --out-dir .
+----
