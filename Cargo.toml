@@ -1,6 +1,6 @@
 [package]
 name = "stats-client-wasm"
-version = "0.1.4"
+version = "0.1.6"
 authors = ["Anthony Ikeda <anthony.ikeda@cognizant.com>"]
 edition = "2018"
 keywords = ["rust", "webclient", "package", "greet"]
